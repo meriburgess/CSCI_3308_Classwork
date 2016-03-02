@@ -1,0 +1,230 @@
+user@cu-cs-vm:~$ date
+Wed Jan 13 19:10:18 MST 2016
+user@cu-cs-vm:~$ ls -ltr
+total 20
+drwxr-xr-x 1 user user   0 Aug 10 15:52 Videos
+drwxr-xr-x 1 user user   0 Aug 10 15:52 Templates
+drwxr-xr-x 1 user user   0 Aug 10 15:52 Public
+drwxr-xr-x 1 user user   0 Aug 10 15:52 Pictures
+drwxr-xr-x 1 user user   0 Aug 10 15:52 Music
+-rw-rw-r-- 1 user user  11 Aug 16 11:25 octave-workspace
+-rw-rw-r-- 1 user user   0 Sep 10 14:32 dlc
+drwxr-xr-x 1 user user  54 Nov 13 17:19 Documents
+drwxr-xr-x 1 user user 676 Dec  3 09:58 Desktop
+drwxr-xr-x 1 user user 900 Dec  6 22:57 Downloads
+-rw-rw-r-- 1 user user 563 Jan 11 13:22 #lab1#~
+-rw-rw-r-- 1 user user 375 Jan 11 13:26 fancycommands
+-rw-rw-r-- 1 user user 816 Jan 13 19:01 ##lab1##
+-rw-rw-r-- 1 user user 816 Jan 13 19:03 #lab1#
+user@cu-cs-vm:~$ cd ..
+user@cu-cs-vm:/home$ pwd
+/home
+user@cu-cs-vm:/home$ who
+user     :0           2016-01-13 19:07 (:0)
+user     pts/7        2016-01-13 19:08 (:0.0)
+user     pts/0        2016-01-13 19:10 (:0.0)
+user@cu-cs-vm:/home$ whoami
+user
+user@cu-cs-vm:/home$ man man
+user@cu-cs-vm:/home$ env
+XDG_VTNR=7
+XDG_SESSION_ID=c1
+SELINUX_INIT=YES
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/user
+SESSION=xubuntu
+GLADE_PIXMAP_PATH=:
+GPG_AGENT_INFO=/run/user/1000/keyring-ZYaIHl/gpg:0:1
+TERM=xterm
+SHELL=/bin/bash
+XDG_MENU_PREFIX=xfce-
+WINDOWID=77594628
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1603
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-ZYaIHl
+USER=user
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+GLADE_MODULE_PATH=:
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+SSH_AUTH_SOCK=/run/user/1000/keyring-ZYaIHl/ssh
+SESSION_MANAGER=local/cu-cs-vm:@/tmp/.ICE-unix/1913,unix/cu-cs-vm:/tmp/.ICE-unix/1913
+DEFAULTS_PATH=/usr/share/gconf/xubuntu.default.path
+XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+DESKTOP_SESSION=xubuntu
+JOB=dbus
+PWD=/home
+GNOME_KEYRING_PID=
+LANG=en_US.UTF-8
+GDM_LANG=en_US
+MANDATORY_PATH=/usr/share/gconf/xubuntu.mandatory.path
+IM_CONFIG_PHASE=1
+GDMSESSION=xubuntu
+SESSIONTYPE=
+XDG_SEAT=seat0
+HOME=/home/user
+SHLVL=1
+LANGUAGE=en_US
+UPSTART_INSTANCE=
+UPSTART_EVENTS=started xsession
+LOGNAME=user
+XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-vMrdZOCIv2
+LESSOPEN=| /usr/bin/lesspipe %s
+INSTANCE=
+UPSTART_JOB=startxfce4
+TEXTDOMAIN=im-config
+XDG_RUNTIME_DIR=/run/user/1000
+DISPLAY=:0.0
+GLADE_CATALOG_PATH=:
+XDG_CURRENT_DESKTOP=XFCE
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TEXTDOMAINDIR=/usr/share/locale/
+COLORTERM=xfce4-terminal
+XAUTHORITY=/home/user/.Xauthority
+_=/usr/bin/env
+OLDPWD=/home/user
+user@cu-cs-vm:/home$ mkdir cs3308
+mkdir: cannot create directory ‘cs3308’: Permission denied
+user@cu-cs-vm:/home$ cd /home/user
+user@cu-cs-vm:~$ pwd
+/home/user
+user@cu-cs-vm:~$ mkdir cs3308
+user@cu-cs-vm:~$ ls
+cs3308   Documents      ##lab1##  Music             Public
+Desktop  Downloads      #lab1#    octave-workspace  Templates
+dlc      fancycommands  #lab1#~   Pictures          Videos
+user@cu-cs-vm:~$ cd cs3308
+user@cu-cs-vm:~/cs3308$ pwd
+/home/user/cs3308
+user@cu-cs-vm:~/cs3308$ mv /home/user/cs3308 /home/user/csci3308
+user@cu-cs-vm:~/cs3308$ cd csci3308
+bash: cd: csci3308: No such file or directory
+user@cu-cs-vm:~/cs3308$ pwd
+/home/user/cs3308
+user@cu-cs-vm:~/cs3308$ cd /home/user/cs3308
+bash: cd: /home/user/cs3308: No such file or directory
+user@cu-cs-vm:~/cs3308$ cd /home/user
+user@cu-cs-vm:~$ ls
+csci3308  Documents      ##lab1##  Music             Public
+Desktop   Downloads      #lab1#    octave-workspace  Templates
+dlc       fancycommands  #lab1#~   Pictures          Videos
+user@cu-cs-vm:~$ cd /home/user/csci3308
+user@cu-cs-vm:~/csci3308$ ls
+user@cu-cs-vm:~/csci3308$ cat file.txt
+cat: file.txt: No such file or directory
+user@cu-cs-vm:~/csci3308$ cp file.txt fileCopy.txt
+user@cu-cs-vm:~/csci3308$ rm fileCopy.txt
+user@cu-cs-vm:~/csci3308$ mkdir tmp
+user@cu-cs-vm:~/csci3308$ rmdir tmp
+user@cu-cs-vm:~/csci3308$ cat file.txt
+stuffuser@cu-cs-vm:~/csci3308$ less file.txt
+user@cu-cs-vm:~/csci3308$ 
+user@cu-cs-vm:~/csci3308$ head file.txt
+stuffuser@cu-cs-vm:~/csci3308$ tail file.txt
+user@cu-cs-vm:~/csci3308$ find books.txt
+find: `books.txt': No such file or directory
+user@cu-cs-vm:~/csci3308$ cd /home/user
+user@cu-cs-vm:~$ find file.txt
+find: `file.txt': No such file or directory
+user@cu-cs-vm:~$ readlink -f file.txt
+/home/user/file.txt
+user@cu-cs-vm:~$ readlink file.txt
+user@cu-cs-vm:~$ pwd
+/home/user
+user@cu-cs-vm:~$ cd csci3308
+user@cu-cs-vm:~/csci3308$ zip dir.zip csci3308
+	zip warning: name not matched: csci3308
+
+zip error: Nothing to do! (dir.zip)
+user@cu-cs-vm:~/csci3308$ zip dir.zip /home/user/csci3308
+  adding: home/user/csci3308/ (stored 0%)
+user@cu-cs-vm:~/csci3308$ unzip dir.zip -d tmp
+Archive:  dir.zip
+   creating: tmp/home/user/csci3308/
+user@cu-cs-vm:~/csci3308$ tar dir.tar /home/user/csci3308
+tar: You may not specify more than one '-Acdtrux', '--delete' or  '--test-label' option
+Try 'tar --help' or 'tar --usage' for more information.
+user@cu-cs-vm:~/csci3308$ tar -cf dir.tar /home/user/csci3308
+tar: Removing leading `/' from member names
+tar: /home/user/csci3308/dir.tar: file is the archive; not dumped
+user@cu-cs-vm:~/csci3308$ tar -xf dir.tar -C tmp
+user@cu-cs-vm:~/csci3308$ tar -xf dir.tar -C tmp
+user@cu-cs-vm:~/csci3308$ touch file.txt
+user@cu-cs-vm:~/csci3308$ cd /home/user
+user@cu-cs-vm:~$ ls
+csci3308  Documents      ##lab1##  Music             Public
+Desktop   Downloads      #lab1#    octave-workspace  Templates
+dlc       fancycommands  #lab1#~   Pictures          Videos
+user@cu-cs-vm:~$ sort -u fancycommands
+bin:x:1:1:bin:/bin:/sbin/nologin
+chico:x:12501:1000:Chico Marx:/home/chico:/bin/bash
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+groucho:x:12503:2000:Grouch Marx:/home/groucho:/bin/sh
+gummo:x:12504:3000:Gummo Marx:/home/gummo:/usr/local/bin/ksh
+harpo:x:12502:1000:Harpo Marx:/home/harpo:/bin/csh
+root:x:0:0:root:/root:/bin/bash
+zeppo:x:12505:1000:Zeppo Marx:/home/zeppo:/bin/zsh
+user@cu-cs-vm:~$ sort -k3 -t : -n fancycommands
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+chico:x:12501:1000:Chico Marx:/home/chico:/bin/bash
+harpo:x:12502:1000:Harpo Marx:/home/harpo:/bin/csh
+groucho:x:12503:2000:Grouch Marx:/home/groucho:/bin/sh
+gummo:x:12504:3000:Gummo Marx:/home/gummo:/usr/local/bin/ksh
+zeppo:x:12505:1000:Zeppo Marx:/home/zeppo:/bin/zsh
+user@cu-cs-vm:~$ sort -k4,4 -k3 -t : n fancycommands
+sort: cannot read: n: No such file or directory
+user@cu-cs-vm:~$ sort -k4,4 -k3 -t : -n fancycommands
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+chico:x:12501:1000:Chico Marx:/home/chico:/bin/bash
+harpo:x:12502:1000:Harpo Marx:/home/harpo:/bin/csh
+zeppo:x:12505:1000:Zeppo Marx:/home/zeppo:/bin/zsh
+groucho:x:12503:2000:Grouch Marx:/home/groucho:/bin/sh
+gummo:x:12504:3000:Gummo Marx:/home/gummo:/usr/local/bin/ksh
+user@cu-cs-vm:~$ grep -w "Marx" fancycommands
+harpo:x:12502:1000:Harpo Marx:/home/harpo:/bin/csh
+chico:x:12501:1000:Chico Marx:/home/chico:/bin/bash
+zeppo:x:12505:1000:Zeppo Marx:/home/zeppo:/bin/zsh
+groucho:x:12503:2000:Grouch Marx:/home/groucho:/bin/sh
+gummo:x:12504:3000:Gummo Marx:/home/gummo:/usr/local/bin/ksh
+user@cu-cs-vm:~$ grep -c $ fancycommands
+8
+user@cu-cs-vm:~$ grep -c $ fancycommands > tmp
+user@cu-cs-vm:~$ grep -c $ fancycommands > tmp.sh
+user@cu-cs-vm:~$ open tmp
+Couldn't get a file descriptor referring to the console
+user@cu-cs-vm:~$ open tmp.txt
+Couldn't get a file descriptor referring to the console
+user@cu-cs-vm:~$ open tmp.sh
+Couldn't get a file descriptor referring to the console
+user@cu-cs-vm:~$ pwd
+/home/user
+user@cu-cs-vm:~$ ./tmp
+bash: ./tmp: Permission denied
+user@cu-cs-vm:~$ ./tmp.sh
+bash: ./tmp.sh: Permission denied
+user@cu-cs-vm:~$ tmp.sh
+tmp.sh: command not found
+user@cu-cs-vm:~$ chmod a=x tmp.sh
+user@cu-cs-vm:~$ tmp.sh
+tmp.sh: command not found
+user@cu-cs-vm:~$ ./tmp.sh
+bash: ./tmp.sh: Permission denied
+user@cu-cs-vm:~$ chmod a+x tmp.sh
+user@cu-cs-vm:~$ tmp.sh
+tmp.sh: command not found
+user@cu-cs-vm:~$ ./tmp.sh
+bash: ./tmp.sh: Permission denied
+user@cu-cs-vm:~$ chmod +x tmp.sh
+user@cu-cs-vm:~$ ./tmp.sh
+bash: ./tmp.sh: Permission denied
+user@cu-cs-vm:~$ tmp.sh
+tmp.sh: command not found
+user@cu-cs-vm:~$ ./tmp.sh
+./tmp.sh: line 1: 8: command not found
+user@cu-cs-vm:~$ tmp.sh
+tmp.sh: command not found
+user@cu-cs-vm:~$ 

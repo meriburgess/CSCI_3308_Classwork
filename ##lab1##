@@ -1,0 +1,42 @@
+date outputs date and time
+ls -ltr outputs directories in reverse order of when last modified 
+cd .. changes directory to parent
+pwd prints current directory
+who displays users in system
+whoami prints current user 
+man man opens system user  manual 
+env runs program in modified environment, displays all variables
+
+mkdir cs3308 
+cd cs3308
+mv /home/user/cs3308 /home/user/csci3308
+cd /home/user/
+cp file.txt fileCopy.txt
+rm fileCopy.txt
+mkdir tmp
+rmdir tmp 
+cat file.txt
+less file.txt
+head file
+tail file
+grep the *
+readlink -f books.txt
+zip dir.zip /home/user/csci3308
+unzip dir.zip -d tmp
+tar -cf dir.tar /home/user/csci3308
+tar -xf dir.tar -C tmp
+touch file
+
+sort -u fancycommands
+sort -k3 -t : -n fancycommands
+sort -k4,4 -k3 -t : -n fancycommands
+grep -w "Marx" fancycommands
+grep -c $ fancycommands
+grep -c $ fancycommands > tmp
+grep -c $ fancycommands > tmp.sh
+chmod +x tmp.sh
+It runs with ./tmp.sh because it is an executable and needs such a command
+Another way to change permissions is to go into the directory interface window and go to file->properties->permissions
+Finally, I could also input the command chmod 777 tmp.sh
+
+yoma2088@colorado.edu

@@ -1,0 +1,57 @@
+//egrep or grep -e to search for reg expressions 
+AWK and SED
+
+AWK
+text patter scanning and processing lang.
+operates on each line of an input file
+begin { init. awk commands}
+{ commands for each line of file }
+END { finalization awk commands } 
+
+each line is a number of fields, separated by fied separator 
+default : 1 or more space character
+first field is $1, then $2, and so on. Whole line is $0 
+NR - current record number (line number of input file)
+NF - number of fields in current line
+
+ls -l | awk '{print $5}' 
+prints 5th column of ls-l (file size col)
+
+ls -l | awk 'BEGIN {sum=0} {sum = sum+$5} END {print sum}'
+prints sum of all file sizes in directory 
+
+ls -l | awk '/^d/' 
+prints all directories only 
+
+SED
+performs basic text transformations on an input stream 
+
+sed 's/input/output' my_file 
+sed 's/input/output/g' my_file  -- change all occurrences 
+
+search and replace 
+default: output is written to stdout. 
+
+sed 's/input/output' myfile > newfile --- redirect to new file 
+sed -i 's/input/output' myfile --- file itself gets updated
+
+& represents anything you are trying to match
+sed 's/[0-9]*/(&)/' myfile  ---- any number 0 thru 9, 
+
+sed 's/abc/def/' my_file -- replaces 'abc' with 'def'
+
+sed '/pattern/command' myfile 
+'pattern' is regexp and command can be one of s= search & replace or p, d, i, a 
+print delete insert append
+
+ls -l | sed -n '/^d/ p'
+print all directories only
+
+sed '/^#d' myfile 
+delete all lines that start with comment symbol
+
+delete first 100 lines in file
+sed '1,100 d' myfile 
+sed '1, $ d' myfile --- delete all lines
+
+

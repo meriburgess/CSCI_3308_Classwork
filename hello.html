@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Hello</title>
+  <script src="http://code.jquery.com/jquery-2.2.0.js"></script>
+  <script >
+    function myfunction() {
+      var url = 'https://api.forecast.io/forecast/461e5b5b2a5632fb12337c88893143c7/40.014984,-105.270546'
+      $.ajax(url, {dataType: 'jsonp'}).then(function(data) {
+        console.log(data)
+	$('#results').append(data.currently.temperature)
+	$('#summary').append(data.currently.summary)
+	$('#humidity').append(data.currently.humidity)
+      })
+    }
+  </script>
+</head>
+<body>	
+	<div id ="results"><h2> Current Temperature </h2></div>
+	<div id = "summary"><h2> Summary </h2></div>
+	<div id = "humidity"><h2> Humidity </h2></div>
+	<button onclick="myfunction()" > Get weather update </button>
+</body>
+</html>
